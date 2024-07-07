@@ -1,0 +1,392 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*/ Header starts here /*/
+
+
+.header-container{
+    width: 100%;
+    display: block;
+    height: 800px;
+    justify-content: center;
+    background-image:url(../img/bg.png) ;
+    background-size: cover;
+}
+
+.navbar{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 60%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.primary-btn{
+    padding: 15px 20px;
+    background-color:#ff6661;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#touch-btn:hover{
+    background-color: #ff6661dd;
+}
+
+a button{
+    color: #fff;
+}
+
+.header-body{
+    display: flex;
+    margin-top: 50px;
+}
+
+.header-texts {
+    width: 30%;
+    margin-left: 380px;
+    margin-top: 100px;
+    padding: 15px;
+}
+
+.header-texts h1{
+    font-size: 60px;
+}
+
+.header-texts p{
+    font-size: 20px;
+}
+
+#start-btn{
+    padding: 15px 40px;
+}
+
+#start-btn:hover{
+    background-color: #ff6661dd;
+}
+
+#banner{
+    width: 500px;
+    margin-left: 250px;
+}
+
+
+/*/ What we do starts here /*/
+
+
+
+.what-we-do-container{
+    display: block;
+    padding: 100px;
+    background-color: #f65072;
+}
+
+.what-we-do-heading{
+    margin-bottom: 10px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+.what-we-do-heading p{
+    width: 50%;
+    margin: auto;
+    font-size: x-large;
+}
+
+.what-we-do-card-section {
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    justify-content: center;
+    margin: auto;
+}
+
+.what-we-do-card{
+    width: 20%;
+    height: 340px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #eeeeee;
+}
+
+.what-we-do-card-info{
+    margin: 10px;
+}
+
+.what-we-do-card-image img{
+    margin: 10px;
+    margin-top: 45px;
+    width: 80px;
+}
+
+.banner-container{
+    margin: auto;
+    width: 70%;
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.banner-container img{
+    max-width: 40%;
+    width: 500px;
+}
+
+.about-txt{
+    color: #eeeeee;
+    max-width: 50%;
+    height: 60%;
+}
+
+.about-txt h1{
+    font-size: 45px;
+    width: 100%;
+}
+
+.about-txt p{
+    font-size: 25px;
+    width: 100%;
+}
+
+#sign-btn{
+    background: none;
+    border: 2px solid salmon;
+    padding: 15px 30px;
+}
+
+#sign-btn:hover{
+    background-color: #ff6661;
+    border: 2px solid salmon;
+}
+
+
+/*/ Works starts here  /*/
+
+
+.works-container{
+    margin-top: 50px
+}
+
+.works-main{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.works-main h1{
+    color: rgb(48, 96, 185);
+    font-size: 35px;    
+}
+
+.works-main p {
+    color: gray;
+    font-size: 18px
+}
+
+.work1-container{
+    gap: 10%;
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.work1-container h1{
+    font-size: 45px;
+    color: rgb(19, 53, 92);
+}
+
+.work1-container p{
+    font-size: 20px;
+}
+
+.work1-txt {
+    margin-top: 25px;
+}
+
+.work2-container{
+    gap: 10%;
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.work2-container h1{
+    font-size: 45px;
+    color: rgb(19, 53, 92);
+}
+
+.work2-container p{
+    font-size: 20px;
+}
+
+.work2-txt {
+    margin-top: 25px;
+}
+
+
+
+/*/ Try Now starts here  /*/
+
+
+
+.try-now-container{
+    text-align: center;
+    background-color: #f65072;
+    max-width: 55%;
+    border-radius: 20px;
+    margin: auto;
+    padding: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.try-now-container h1{
+    color: beige;
+    font-size: 40px;
+}
+
+.try-now-container p{
+    color: bisque;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.email-try-now{
+    background-color: #f65072;
+    color: beige;
+    gap: 15px;
+    margin: auto;
+    max-width: 90%;
+}
+
+.email-try-now input{
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding: 15px 40px;
+    background: none;
+}
+
+.email-try-now input ::placeholder {
+    color: #fff;
+}
+
+
+/*/  Send Message starts here  /*/
+
+
+.message-container{
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.message-left{
+    max-width: 50%;
+    width: 50%;
+    float: left;
+}
+
+.message-left h1 {
+    width: 80%;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.message-right {
+    max-width: 50%;
+    width: 50%;
+    float: right;
+    margin: 50px
+}
+
+.message-right input{
+    padding: 10px;
+    width: 90%;
+    border: none;
+    background: none;
+    border-radius: 10px;
+}
+
+.message-right textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    border: none;
+    background: none;
+    border-bottom: 2px #840bd4;
+    border-radius: 10px;
+}
+
+
+/*/  Footer starts here  /*/
+
+
+.footer-container {
+    background: #92909267;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-bottom{
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-logo-left {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    margin-left: 250px;
+}
+
+.footer-left{
+    margin-left: 50px;
+}
+
+.footer-left img{
+    width: 30px;
+}
+
+.footer-right {
+    width: 70%;
+    gap: 60px;
+    display: flex;
+    float: right;   
+}
+
+.footer-right-top a{
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-right-top a :hover {
+    background-color: #020102;
+}
